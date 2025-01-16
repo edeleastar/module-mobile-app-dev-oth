@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="5.0.13438" xml-version="3" flavor="j2se">
+  <property name="show-as-module" value="false" />
+  <property name="publish-architecture-artifacts" value="true" />
+  <property name="force-classpath" value="false" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <classpath>
+    <classpathentry kind="lib" path="../../prj/placemark-18-solution/app/build/tmp/kotlin-classes/debug" module="debug" />
+  </classpath>
+  <pom-root-files />
+  <modules-in-scope />
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" slicer="2" />
+  </restructuring>
+  <grid-set sep="." version="5.0.13438">
+    <grid name="Tangle of 10" enforce="true" locked="false" strict="false">
+      <row>
+        <cell pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="Tangle of 10" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name="EditLocationView" pattern="debug.org.wit.placemark.views.editlocation.EditLocationView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkMapView" pattern="debug.org.wit.placemark.views.map.PlacemarkMapView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkView" pattern="debug.org.wit.placemark.views.placemark.PlacemarkView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkListView" pattern="debug.org.wit.placemark.views.placemarklist.PlacemarkListView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name="EditLocationPresenter" pattern="debug.org.wit.placemark.views.editlocation.EditLocationPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkMapPresenter" pattern="debug.org.wit.placemark.views.map.PlacemarkMapPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkPresenter" pattern="debug.org.wit.placemark.views.placemark.PlacemarkPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                    <cell name="PlacemarkListPresenter" pattern="debug.org.wit.placemark.views.placemarklist.PlacemarkListPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name="BaseView" pattern="debug.org.wit.placemark.views.BaseView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name="BasePresenter" pattern="debug.org.wit.placemark.views.BasePresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+      </row>
+    </grid>
+    <grid name="debug.org.wit.placemark.views" enforce="true" locked="false" strict="false">
+      <row>
+        <cell pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name="editlocation" pattern="debug.org.wit.placemark.views.editlocation.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="map" pattern="debug.org.wit.placemark.views.map.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="placemark" pattern="debug.org.wit.placemark.views.placemark.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="placemarklist" pattern="debug.org.wit.placemark.views.placemarklist.?" vexpanded="false" illegal="false" visibility="public" drill="true" />
+            </row>
+            <row>
+              <cell name="BaseView" pattern="debug.org.wit.placemark.views.BaseView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+            </row>
+            <row>
+              <cell name="BasePresenter" pattern="debug.org.wit.placemark.views.BasePresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="BaseViewKt" pattern="debug.org.wit.placemark.views.BaseViewKt" vexpanded="false" illegal="false" visibility="public" drill="true" />
+              <cell name="VIEW" pattern="debug.org.wit.placemark.views.VIEW" vexpanded="false" illegal="false" visibility="public" drill="true" />
+            </row>
+          </grid>
+        </cell>
+      </row>
+    </grid>
+    <grid name="Tangle of 10" enforce="true" locked="false" strict="false">
+      <row>
+        <cell pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+          <grid>
+            <row>
+              <cell name=".org.wit.placemark.views.editlocation" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name=".EditLocationView" pattern="debug.org.wit.placemark.views.editlocation.EditLocationView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name=".EditLocationPresenter" pattern="debug.org.wit.placemark.views.editlocation.EditLocationPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+              <cell name=".org.wit.placemark.views.map" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name=".PlacemarkMapView" pattern="debug.org.wit.placemark.views.map.PlacemarkMapView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name=".PlacemarkMapPresenter" pattern="debug.org.wit.placemark.views.map.PlacemarkMapPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+              <cell name=".org.wit.placemark.views.placemark" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name=".PlacemarkView" pattern="debug.org.wit.placemark.views.placemark.PlacemarkView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name=".PlacemarkPresenter" pattern="debug.org.wit.placemark.views.placemark.PlacemarkPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+              <cell name=".org.wit.placemark.views.placemarklist" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name=".PlacemarkListView" pattern="debug.org.wit.placemark.views.placemarklist.PlacemarkListView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name=".PlacemarkListPresenter" pattern="debug.org.wit.placemark.views.placemarklist.PlacemarkListPresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+            <row>
+              <cell name=".org.wit.placemark.views" pattern="" vexpanded="true" illegal="false" visibility="public" drill="true">
+                <grid>
+                  <row>
+                    <cell name=".BaseView" pattern="debug.org.wit.placemark.views.BaseView" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                  <row>
+                    <cell name=".BasePresenter" pattern="debug.org.wit.placemark.views.BasePresenter" vexpanded="false" illegal="false" visibility="public" drill="true" />
+                  </row>
+                </grid>
+              </cell>
+            </row>
+          </grid>
+        </cell>
+      </row>
+    </grid>
+  </grid-set>
+</local-project>
